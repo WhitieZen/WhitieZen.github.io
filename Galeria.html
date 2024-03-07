@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<link href="style_page_galeria.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.filtro_scalagrises {
+    filter: grayscale(100%);
+}
+.filtro_sepia {
+    filter: saturate(100%);
+}
+.filtro_contraste {
+    filter: contraste(200%);
+}
+.filtro_billo {
+    filter: brightness(130%);
+}
+.filtro_invert {
+    filter: invert(150%);
+}
+.filtro_saturacion {
+    filter: saturate(200%);
+}
+.filtro_sombra {
+    filter: drop-shadow(5px 5px 3px gray);
+}
+body header h1 {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: lighter;
+}
+ul li a {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Galería</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Inicio</a>
+      <li><a href="Galeria.html">Galería</a></li>
+      <li><a href="Practicas.html">Prácticas</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+<table width="100" border="0" cellspacing="10" class="tabla_galeria">
+      <tbody>
+        <tr>
+          <td><img src="Medios/bon.jpg" alt="" width="3472" height="3472" class="img_galeria"/></td>
+          <td><img src="Medios/flores.jpg" alt="" width="2136" height="4624" class="img_galeria filtro_saturacion"/></td>
+          <td><img src="Medios/acua.jpg" alt="" width="2136" height="4624" class="img_galeria filtro_sombra"/></td>
+        </tr>
+        <tr>
+          <td><img src="Medios/yo2.jpeg" alt="" width="1912" height="3399" class="img_galeria filtro_sepia"/></td>
+          <td><img src="Medios/pic1.jpg" alt="" width="1080" height="2340" class="img_galeria filtro_billo"/></td>
+          <td><img src="Medios/cori.jpg" alt="" width="2136" height="4624" class="img_galeria filtro_sombra"/></td>
+        </tr>
+        <tr>
+          <td><img src="Medios/original_6f75060b-f7a2-4e6c-9688-3022499194e6_Screenshot_2024-02-12-14-33-39-778_com.instagram.android.jpg" alt="" width="685" height="698" class="img_galeria filtro_sepia"/></td>
+          <td><img src="Medios/pic3.jpg" alt="" width="2136" height="4624" class="img_galeria filtro_saturacion"/></td>
+          <td><img src="Medios/juego.jpg" alt="" width="2136" height="4624" class="img_galeria filtro_sombra"/></td>
+        </tr>
+      </tbody>
+    </table>
+  &nbsp;</section>
+</main>
+<footer>
+  <h6>Elaborado por Ana González Sánchez</h6>
+</footer>
+</body>
+</html>
